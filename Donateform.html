@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7eaa27f3ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="IMAGES/review.jpg">
+            </div>
+            <h1> Blood<br> Centre</h1>
+            
+            <div class="menu">
+                <ul>
+                    <li>
+                        
+                        <a href="http://127.0.0.1:5500/Dashboard.html">HOME</a>
+                        <a href="http://127.0.0.1:5500/Donateform.html">DONATE BLOOD</a>
+                        <a href="http://127.0.0.1:5500/Requestform.html">REQUEST BLOOD</a>
+                        <a href="#">ABOUT US</a>
+                        <a href="#">CONTACTS</a>
+                        
+                        
+                    </li>
+                </ul>
+                <div class="search">
+                    <input type="Search" class="srch" placeholder="Type Here">
+                    <button class="btn" > SEARCH</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-box">
+            <h1>Donation</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text"  placeholder="Name"><br>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text"  placeholder="Email" required><br>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="text"  placeholder="Phone no" required><br>
+                    </div>
+                    <div class="input-field">
+                
+                        <i class="fa-solid fa-weight-scale"></i>
+                        <input type="text" id="weight" name="weight" placeholder="Weight" required><br>
+                    </div>
+                    <div class="input-field">
+                
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <input type="date" id="dob" name="dob" placeholder="Date of Birth:" required><br>
+                    </div>
+                    <div class="input-field">
+                
+                        <i class="fa-solid fa-droplet"></i>
+    <select id="bloodGroup" name="bloodGroup">
+        <option value="">Select</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+    </select><br>
+                    </div>
+                    <div class="input-field">  
+                    
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" id="location" name="Location" placeholder="Nearest Hospital:" required>
+                    </div>
+                    <div class="btn-field">
+                        <button  id="submit">Submit</button>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

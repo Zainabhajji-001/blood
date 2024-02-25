@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7eaa27f3ff.js" crossorigin="anonymous"></script>
+    <title>BLOOD BANK WEBSITE</title>
+</head>
+<body>
+   <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="IMAGES/review.jpg">
+            </div>
+            <h1> Blood<br> Centre</h1>
+            
+            <div class="menu">
+                <ul>
+                    <li>
+                        
+                        <a href="http://127.0.0.1:5500/Dashboard.html">HOME</a>
+                        <a href="http://127.0.0.1:5500/Donateform.html">DONATE BLOOD</a>
+                        <a href="http://127.0.0.1:5500/Requestform.html">REQUEST BLOOD</a>
+                        <a href="#">ABOUT US</a>
+                        <a href="#">CONTACTS</a>
+                        
+                        
+                    </li>
+                </ul>
+                <div class="search">
+                    <input type="Search" class="srch" placeholder="Type Here">
+                    <button class="btn" > SEARCH</button>
+                </div>
+            </div>
+        </div>
+     </div>
+        <img src="IMAGES/review.jpg" style="height: 130px; width: 100%;" >
+        <div class="crt">
+            <div class="cosnt">
+            <h1>Save a Life.<br> Donate Blood</h1>
+            <p>One Pint of Blood can Save the Life</p>
+            <a href="http://127.0.0.1:5500/Donateform.html" target="_blank"></a>
+            <button onclick="gotoLink(this)" value="http://127.0.0.1:5500/Donateform.html" class="dnat">Donate Now</button>
+            
+            <button class="no">Call(254) 777 4435 </button>
+        </div>  
+        </div>
+<!-------------------------about--------------------------->
+        <div class="about">
+      <div class="cont">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMAGES/Screen-Shot-2022-06-14-at-7.12.07-PM-og_image.webp">
+            </div>
+      
+        <div class="about-col-2">
+           <h1>Who We Are</h1>
+           <p>Your financial gift can <br>help a thousand<br> children who struggle <br>from illnesses. Your gift<br> can provide the<br> necessary medicine,<br> treatment, and other<br> essentials.</p>
+        <div class="about-col-3">
+            <a href="http://127.0.0.1:5500/Donateform.html" target="_blank"></a>
+            <button  onclick="gotoLink(this)" value="http://127.0.0.1:5500/Donateform.html">Donate Now</button>
+        </a>
+        </div>
+        </div>
+    </div>
+        </div>
+      </div>
+<!---------------------------------services-------------------------------------->
+
+      <div class="services">
+        <div class="container">
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-hand-holding-medical"></i>
+                    <h2>Donation</h2>
+                    <p>Number of Donated<br> blood</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hand"></i>
+                    <h2>Request</h2>
+                    <p>Number of Blood<br> Requests</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <h2>Appointment</h2>
+                    <p>Number of Appointments</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!---------------------------Contacts-------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0707774435</p>
+            
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>  
+    <script>
+        function gotoLink(link){
+            console.log(link.value);
+           location.href= "http://127.0.0.1:5500/Donateform.html";
+        };
+    </script>
+</body>
+</html>
